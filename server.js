@@ -1,5 +1,5 @@
 import express from 'express';
-
+//Servidor do node rodando na porta 3000
 const app = express();
 app.get('/', (req, res) => {
     res.send('Hello, World!');
